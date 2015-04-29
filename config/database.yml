@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: vvcom_production
-  username: vvcom
-  password: <%= ENV['VVCOM_DATABASE_PASSWORD'] %>
+  username: appuser
+  password: appuser
