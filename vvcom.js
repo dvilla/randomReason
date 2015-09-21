@@ -1,7 +1,5 @@
 var reason_array = [
-  "Sí",
-  "Ya sabes que sí, para que preguntas",
-  "Hoy no"
+  "Sí"
 ];
 
 function random_reason(reason_array){
@@ -11,8 +9,7 @@ function random_reason(reason_array){
 
 var show_reason = function(){
   reason_from_array = random_reason(reason_array);
-  reason_text = document.createTextNode(reason_from_array);
-  reason_node = document.createElement("P");
-  reason_node.appendChild(reason_text);
-  document.body.appendChild(reason_node);
+  document.getElementById("today-reason").innerHTML = reason_from_array
 };
+
+console.log(new Date())
