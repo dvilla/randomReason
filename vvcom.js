@@ -1,15 +1,13 @@
-var reason_array = [
+var reasonArray = [
   "Sí"
 ];
 
-function random_reason(reason_array){
-  var random_reason = reason_array[Math.floor(Math.random()*reason_array.length)]
-  return random_reason
+function randomReason(reasonArray){
+  var randomReason = reasonArray[Math.floor(Math.random()*reasonArray.length)]
+  return randomReason
 };
 
-var show_reason = function(){
-  reason_from_array = random_reason(reason_array);
-  document.getElementById("today-reason").innerHTML = reason_from_array
+function showReason(){
+  var reasonFromArray = randomReason(reasonArray);
+  document.getElementById("today-reason").innerHTML = reasonFromArray
 };
-
-console.log(new Date())
