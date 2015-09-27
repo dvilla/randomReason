@@ -17,12 +17,6 @@ h1{
   border-radius: 1px;
 }
 
-span{
-  display: none;
-  text-align: center;
-  padding: 25px;
-}
-
 span:target{
   display: block
 }
