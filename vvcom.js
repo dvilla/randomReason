@@ -1,7 +1,9 @@
 var reasonArray = [
     "reason1",
     "reason2",
-    "reason3"
+    "reason3",
+    "reason4",
+    "reason5",
 ];
 
 function randomReason(reasonArray){
